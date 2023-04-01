@@ -150,8 +150,8 @@ headerObserver.observe(header);
 
 // section--hidden
 
-const secCall=function(entries,observer){
-  const [entry]=entries;
+const secCall = function(entries,observer){
+  const [entry] = entries;
   // console.log(entry.target);
   // console.log(entry);
   if(!entry.isIntersecting) return;
